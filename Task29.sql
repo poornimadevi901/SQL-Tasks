@@ -1,0 +1,1 @@
+SELECT odate, SUM(amt) AS total_sales FROM orders GROUP BY odate ORDER BY total_sales DESC;

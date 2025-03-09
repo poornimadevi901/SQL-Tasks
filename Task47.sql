@@ -1,0 +1,1 @@
+SELECT AVG(comm) FROM salespeople WHERE city = 'London';

@@ -1,0 +1,1 @@
+SELECT city, MAX(rating) AS highest_rating FROM cust GROUP BY city;

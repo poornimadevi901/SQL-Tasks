@@ -1,0 +1,1 @@
+SELECT * FROM cust WHERE snum IN (SELECT snum FROM salespeople WHERE sname IN ('Peel', 'Motika'));

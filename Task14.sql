@@ -1,0 +1,1 @@
+SELECT * FROM orders WHERE odate IN ('03-OCT-94', '04-OCT-94');
